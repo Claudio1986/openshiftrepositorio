@@ -1,0 +1,911 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{19775451-E32C-4F76-8407-A722AED35AE2}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CRMAPP1"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "CRMAPP1"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Web"
+                    AssemblyName = "CrystalDecisions.Web"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Web.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "CrystalEnterpriseLib"
+                    AssemblyName = "CrystalEnterpriseLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalEnterpriseLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalReportPluginLib"
+                    AssemblyName = "CrystalReportPluginLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalReportPluginLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalInfoStoreLib"
+                    AssemblyName = "CrystalInfoStoreLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalInfoStoreLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "backuprestoredb.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Home.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Home.aspx.cs"
+                    DependentUpon = "Home.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Home.aspx.resx"
+                    DependentUpon = "Home.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Official Link.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Official Link.aspx.cs"
+                    DependentUpon = "Official Link.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Official Link.aspx.resx"
+                    DependentUpon = "Official Link.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebUserControl1.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebUserControl1.ascx.cs"
+                    DependentUpon = "WebUserControl1.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebUserControl1.ascx.resx"
+                    DependentUpon = "WebUserControl1.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\AdminCrystalReport.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminModule\AdminCrystalReport.aspx.cs"
+                    DependentUpon = "AdminCrystalReport.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminModule\AdminCrystalReport.aspx.resx"
+                    DependentUpon = "AdminCrystalReport.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\Adminmain.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminModule\Adminmain.aspx.cs"
+                    DependentUpon = "Adminmain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminModule\Adminmain.aspx.resx"
+                    DependentUpon = "Adminmain.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\CrystalReport1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport1.cs"
+                />
+                <File
+                    RelPath = "AdminModule\CrystalReport1.cs"
+                    DependentUpon = "CrystalReport1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "AdminModule\CrystalReport1.resx"
+                    DependentUpon = "CrystalReport1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\Empdetails.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminModule\Empdetails.aspx.cs"
+                    DependentUpon = "Empdetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminModule\Empdetails.aspx.resx"
+                    DependentUpon = "Empdetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\Invaliduidpwd.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminModule\Invaliduidpwd.aspx.cs"
+                    DependentUpon = "Invaliduidpwd.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminModule\Invaliduidpwd.aspx.resx"
+                    DependentUpon = "Invaliduidpwd.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\Login.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminModule\Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminModule\Login.aspx.resx"
+                    DependentUpon = "Login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminModule\PayRolldetails.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdminModule\PayRolldetails.aspx.cs"
+                    DependentUpon = "PayRolldetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminModule\PayRolldetails.aspx.resx"
+                    DependentUpon = "PayRolldetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "bin\CRMAPP1.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\CRMAPP1.pdb"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerModule\CustoMain.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerModule\CustoMain.aspx.cs"
+                    DependentUpon = "CustoMain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerModule\CustoMain.aspx.resx"
+                    DependentUpon = "CustoMain.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomerModule\CustQueries.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerModule\CustQueries.aspx.cs"
+                    DependentUpon = "CustQueries.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerModule\CustQueries.aspx.resx"
+                    DependentUpon = "CustQueries.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomerModule\CustReg.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerModule\CustReg.aspx.cs"
+                    DependentUpon = "CustReg.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerModule\CustReg.aspx.resx"
+                    DependentUpon = "CustReg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomerModule\Invaliduidpwd.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CustomerModule\Invaliduidpwd.aspx.cs"
+                    DependentUpon = "Invaliduidpwd.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomerModule\Invaliduidpwd.aspx.resx"
+                    DependentUpon = "Invaliduidpwd.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\CrystalReport2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport2.cs"
+                />
+                <File
+                    RelPath = "EmployeeModule\CrystalReport2.cs"
+                    DependentUpon = "CrystalReport2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "EmployeeModule\CrystalReport2.resx"
+                    DependentUpon = "CrystalReport2.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\CustQuery.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\CustQuery.aspx.cs"
+                    DependentUpon = "CustQuery.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\CustQuery.aspx.resx"
+                    DependentUpon = "CustQuery.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpCrystalrpt.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpCrystalrpt.aspx.cs"
+                    DependentUpon = "EmpCrystalrpt.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpCrystalrpt.aspx.resx"
+                    DependentUpon = "EmpCrystalrpt.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpLogin.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpLogin.aspx.cs"
+                    DependentUpon = "EmpLogin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpLogin.aspx.resx"
+                    DependentUpon = "EmpLogin.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpMain.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpMain.aspx.cs"
+                    DependentUpon = "EmpMain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpMain.aspx.resx"
+                    DependentUpon = "EmpMain.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpPayRoll.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpPayRoll.aspx.cs"
+                    DependentUpon = "EmpPayRoll.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpPayRoll.aspx.resx"
+                    DependentUpon = "EmpPayRoll.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpPDetail.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpPDetail.aspx.cs"
+                    DependentUpon = "EmpPDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpPDetail.aspx.resx"
+                    DependentUpon = "EmpPDetail.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpReg.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpReg.aspx.cs"
+                    DependentUpon = "EmpReg.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\EmpReg.aspx.resx"
+                    DependentUpon = "EmpReg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\Invaliduidpwd.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\Invaliduidpwd.aspx.cs"
+                    DependentUpon = "Invaliduidpwd.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\Invaliduidpwd.aspx.resx"
+                    DependentUpon = "Invaliduidpwd.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmployeeModule\ViewQuery.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmployeeModule\ViewQuery.aspx.cs"
+                    DependentUpon = "ViewQuery.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmployeeModule\ViewQuery.aspx.resx"
+                    DependentUpon = "ViewQuery.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "image\05.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\3.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\about.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\about.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\admin.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\ball.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\banner_01.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\call.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\care-logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\contact.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\crown tech.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\ct.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\customer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\cutoff.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\edit-profile.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\exit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\globe.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\group-pic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\lady.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\lady1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\laptop.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\legal.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\login.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\member.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\password.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\payout.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic10.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic11.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic3.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic4.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic5.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic6.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic7.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic8.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pic9.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\pin.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\plan.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\playobj.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\print.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\projects.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\report.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\rewards.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\sc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\sc-login.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\signup.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\stage.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\tds.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "image\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "image\vision.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\CrystalReport3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport3.cs"
+                />
+                <File
+                    RelPath = "OperationMGRModule\CrystalReport3.cs"
+                    DependentUpon = "CrystalReport3.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Invaliduidpwd.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Invaliduidpwd.aspx.cs"
+                    DependentUpon = "Invaliduidpwd.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Invaliduidpwd.aspx.resx"
+                    DependentUpon = "Invaliduidpwd.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Login.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Login.aspx.resx"
+                    DependentUpon = "Login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OperationMGRModule\OpemgrCrystalrpt.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\OpemgrCrystalrpt.aspx.cs"
+                    DependentUpon = "OpemgrCrystalrpt.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\OpemgrCrystalrpt.aspx.resx"
+                    DependentUpon = "OpemgrCrystalrpt.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OperationMGRModule\OperationMGRMain.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\OperationMGRMain.aspx.cs"
+                    DependentUpon = "OperationMGRMain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\OperationMGRMain.aspx.resx"
+                    DependentUpon = "OperationMGRMain.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OperationMGRModule\operationMGRQuery.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\operationMGRQuery.aspx.cs"
+                    DependentUpon = "operationMGRQuery.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\operationMGRQuery.aspx.resx"
+                    DependentUpon = "operationMGRQuery.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Scheme.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Scheme.aspx.cs"
+                    DependentUpon = "Scheme.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\Scheme.aspx.resx"
+                    DependentUpon = "Scheme.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OperationMGRModule\ViewQuery.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OperationMGRModule\ViewQuery.aspx.cs"
+                    DependentUpon = "ViewQuery.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OperationMGRModule\ViewQuery.aspx.resx"
+                    DependentUpon = "ViewQuery.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </CSHARP>
+</VisualStudioProject>
+

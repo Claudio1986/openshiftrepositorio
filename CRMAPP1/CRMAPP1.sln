@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMAPP1", "http://localhost/CRMAPP1/CRMAPP1.csproj", "{19775451-E32C-4F76-8407-A722AED35AE2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Debug.ActiveCfg = Debug|.NET
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Debug.Build.0 = Debug|.NET
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Release.ActiveCfg = Release|.NET
+		{19775451-E32C-4F76-8407-A722AED35AE2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
